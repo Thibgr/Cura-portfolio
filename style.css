@@ -1,10 +1,40 @@
-    body {
-        margin: 0 auto;
-        text-align: center;
-    }
+/* General */    
+
+body {
+    margin: 0 auto;
+    text-align: center;
+        }
+
+h2 {
+    padding-top: 115px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 22px;
+    letter-spacing: 0.1em;
+}
+
+.description {
+    padding-top: 25px; padding-bottom: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.02em;
+    line-height: 26px;
+}
+
+.separator {
+    width: 90px; height: 4px;
+    background-color: black;
+    opacity: 0.15;
+    display: inline-block;
+}
 
 
 /* First block */
+
     #block1 {
         background: #87509c; 
         width: 100%;
@@ -65,7 +95,7 @@
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
-        padding: 30px 80px;
+        padding: 30px 80px 25px 80px;
         display: inline-block;
         text-align: center;
         background-color: #eb7d4b;
@@ -75,10 +105,12 @@
         margin-top: 155px;
         margin: 0 auto;
         position: relative;
+        letter-spacing: 0.02em;
+        border-bottom: 4px #c86a40 solid;
     }
 
     #block1>a:hover {
-        border-bottom: 4px #c86a40 solid; 
+        border-bottom: 4px #eb7d4b solid; 
     }
 
 
@@ -90,6 +122,38 @@
         height: 747px;
     }
 
+#block2 table {
+    margin: 0 auto;
+    
+}
+
+#services-title td {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px; 
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 63px;
+    padding-bottom: 27px;
+}
+
+#services-p td>div {
+    width: 205px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px; 
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+#services-p td {
+    width: 260px; 
+    padding-right: 10px; padding-left: 10px;
+}
 
 /* Third block */
 
@@ -98,6 +162,75 @@
         width: 100%;
         height: 914px;
     }
+#block3 h2 {
+    color: #3c4761; 
+}
+
+#block3>p {
+    color: #3c4761; 
+}
+
+#block3 .separator {
+    background-color: #bdd1df; 
+    opacity: 0.75;
+}
+
+#team-profiles {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#team-profiles>div {
+    float: left;
+    width: 260px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background-color: #878787;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+#team-profiles h3 {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em; 
+    color: #27283d;
+    padding-top: 42px;
+    padding-bottom: 15px;
+}
+
+#team-profiles h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em; 
+    color: #30bae7;
+    padding-bottom: 26px;
+}
+
+#team-profiles p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em; 
+    color: #3c4761;
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.social-network img {
+    margin: 0 6px;
+}
+
 
 /* Fourth block */
 
@@ -107,6 +240,45 @@
         height: 655px;
     }
 
+#block4 h2 {
+    color: #3c4761; 
+}
+
+#block4>p {
+    color: #3c4761;
+    width: 575px;
+    margin: 0 auto;
+    line-height: 26px
+}
+
+#block4 .separator {
+    background-color: #bdd1df; 
+    opacity: 0.75;
+}
+
+#skills-stats {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#skills-stats div {
+    float: left;
+}
+
+#skills-stats img{
+    margin: 0 60px;
+}
+
+#skills-stats h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em; 
+    color: #3c4761;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
 /* Fifth block */
 
  #block5 {
@@ -114,6 +286,101 @@
         width: 100%;
         height: 1423px;
     }
+
+#block5 h2 {
+    color: #393939
+}
+
+#block5>p {
+    color: #393939;
+    width: 575px;
+    margin: 0 auto;
+    line-height: 26px;
+    padding-bottom: 43px;
+}
+
+#block5 .separator {
+    background-color: #e5c37f; 
+    opacity: 1;
+}
+
+#block5 ul {
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 62px;
+}
+
+#block5 ul li {
+    float: left; 
+    background-color: #ebc985;
+    border-radius: 3px;
+    margin: 0px 5px;
+}
+
+#block5 ul li a:hover {
+    background-color: white;
+}
+
+#block5 ul a {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #393939;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 3px;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+#block5 figure {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#padding-screen {
+    padding-bottom: 65px;
+}
+
+#block5 figcaption {
+    margin-top: 29px;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #393939;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+#screenshots  {
+    margin: 0 auto;
+    width: 1122px;
+}
+
+#center-screen {
+    display: inline-block;
+}
+#block5>a {
+    display: inline-block;
+    padding: 30px 55px 25px 55px;
+    margin-top: 84px;
+    background-color: #17c2a4;
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 4px #14a58c solid
+}
+
+#block5 a:hover {
+    border-bottom: 4px #17c2a4 solid ;
+}
+
 
 /* sixth block */
 
@@ -123,6 +390,70 @@
         height: 894px;
     }
 
+.mini-pic {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #787878;
+    margin-right: 48px;
+    margin-bottom: 70px;
+    display: inline-block;
+    float: left;
+}
+
+#testimonials{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 1178px;
+}
+
+ #testimonials>div {
+    float: left;
+     margin-bottom: 140px;
+     margin-right: 85px;
+} 
+
+#block6 div>p {
+    width: 360px;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    color: #fff;
+    line-height: 31px; 
+    letter-spacing: 0.02em;
+}
+
+
+.presentation {
+    float: left;
+}
+
+#block6 h3 {
+    display: block;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.02em;
+    margin-top: 30px; 
+}
+
+#block6 h4 {
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffdd99;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+}
+
+
 /* seventh block */
 
  #block7 {
@@ -131,6 +462,73 @@
         height: 818px;
     }
 
+#block7 form {
+    width: 890px;
+    margin: 0 auto;
+}
+
+#block7 input {
+    width: 375px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.form-area {
+    
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+#block7 textarea {
+     width: 815px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    margin-top: 27px;
+    background-color: #273a71;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+::-webkit-resizer {
+    background-image: url(link/Arrow.png);
+    background-repeat: no-repeat;
+}
+
+ #submit-button {
+    margin-top: 60px;
+    padding-left: 80px;
+     text-transform: uppercase;
+     font-size: 18px;
+     letter-spacing: 0.02em;
+     background-color: #30bae7;
+     
+}
 /* Footer */
 
  footer {
@@ -139,3 +537,4 @@
         height: 112px;
         border-top: 1px white solid; 
     }
+}

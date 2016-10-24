@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700" rel="stylesheet">
 </head>
 <body>
 	<div id="block1"> <!-- First container -->
@@ -33,40 +33,42 @@
 	<div id="block2"> <!-- Second container -->
 
 		<h2>SERVICES WE PROVIDE</h2>
-		<p>We are working with both individuals and businesses from all over the globe 
+		<div class="separator"></div>
+		<p class="description">We are working with both individuals and businesses from all over the globe<br> 
 		to create awesome websites and applications.</p>
-
-		<div>
-			<img src="link/Flag-icon.png" alt="Flag icon" title="Branding">
-			<h3>branding</h3>
-			<p>Lorem ipsum dolor sit amet, 
-			consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-		</div>
-
-		<div>
-			<img src="link/Crayon-icon.png" alt="Crayon icon" title="Design">
-			<h3>design</h3>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-		</div>
-
-		<div>
-			<img src="link/Gears-icon.png" alt="Development icon" title="Development">
-			<h3>development</h3>
-			<p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-		</div>
-
-		<div>
-			<img src="link/Rocket-icon.png" alt="Rocket science icon" title="Rocket science">
-			<h3>rocket science</h3>
-			<p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-		</div>
+		
+		<table>
+		    <tr id="services-icon">
+		        <td><img src="link/Flag-icon.png" alt="Flag icon" title="Branding"></td>
+		        <td><img src="link/Crayon-icon.png" alt="Crayon icon" title="Design"></td>
+		        <td><img src="link/Gears-icon.png" alt="Development icon" title="Development"></td>
+		        <td><img src="link/Rocket-icon.png" alt="Rocket science icon" title="Rocket science"></td>
+		    </tr>
+		    
+		    <tr id="services-title">
+		        <td>branding</td>
+		        <td>design</td>
+		        <td>development</td>
+		        <td>rocket science</td>
+		    </tr>
+		    
+		    <tr id="services-p">
+                <td><div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</div></td>
+		        <td><div>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</div></td>
+		        <td><div>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</div></td>
+                <td><div>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</div></td>
+		    </tr>
+		</table>
 
 	</div> <!-- End of the second container -->
 
 	<div id="block3"> <!-- Third container -->
 
 		<h2>MEET OUR BEAUTIFUL TEAM</h2>
-		<p>We are a small team of designers and developers, who help brands with big ideas.</p>
+		<div class="separator"></div>
+		<p class="description">We are a small team of designers and developers, who help brands with big ideas.</p>
+		
+		<div id="team-profiles">
 		
 			<div>
 				<div class="profile-pic"></div>
@@ -121,40 +123,47 @@
 						<a href="#" alt="mail" target="_blank" title="mail link"><img src="link/Mail-icon.png"></a>
 					</div>
 			</div>
+       
+        </div>
 
 	</div> <!-- End of the third container -->
 
 	<div id="block4"> <!-- Fourth container -->
 
 		<h2>WE GOT SKILLS!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="separator"></div>
+		<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-		<div>
-			<img src="link/webdesign-stat.png" alt="stats webdesign" title="stats webdesign">
-			<h3>web design</h3>
-		</div>
-		
-		<div>
-			<img src="link/htmlcss-stat.png" alt="html/css webdesign" title="html/css webdesign">
-			<h3>HTML / CSS</h3>
-		</div>
-		
-		<div>
-			<img src="link/graphic-stat.png" alt="stats design" title="stats design">
-			<h3>web design</h3>
-		</div>
-		
-		<div>
-			<img src="link/uiux-stat.png" alt="stats ux-ui" title="stats ux-ui">
-			<h3>web design</h3>
-		</div>
+        <div id="skills-stats">
+           
+            <div>
+                <img src="link/webdesign-stat.png" alt="stats webdesign" title="stats webdesign">
+                <h3>web design</h3>
+            </div>
+
+            <div>
+                <img src="link/htmlcss-stat.png" alt="html/css webdesign" title="html/css webdesign">
+                <h3>HTML / CSS</h3>
+            </div>
+
+            <div>
+                <img src="link/graphic-stat.png" alt="stats design" title="stats design">
+                <h3>GRAPHIC DESIGN</h3>
+            </div>
+
+            <div>
+                <img src="link/uiux-stat.png" alt="stats ux-ui" title="stats ux-ui">
+                <h3>UI / UX</h3>
+            </div>
+        </div>
 		
 	</div> <!-- End of the fourth container -->
 	
 	<div id="block5"> <!-- Fifth container -->
 	    
 	    <h2>OUR PORTFOLIO</h2>
-	    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+		<div class="separator"></div>
+	    <p class="description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
 	    
 	    <ul>
 	        <li><a href="#">ALL</a></li>
@@ -162,27 +171,31 @@
 	        <li><a href="#">APPS</a></li>
 	        <li><a href="#">ICONS</a></li>    
 	    </ul>
-	        
-	        <figure>
-	            <img src="link/first-screen.png" alt="First work" title="First work">
-	            <figcaption>Isometric Perspective Mock-Up</figcaption>
-	        </figure>
-	        
-	        <figure>
-	            <img src="link/second-screen.png" alt="Second work" title="Second work">
-	            <figcaption>Time Zone App UI</figcaption>
-	        </figure>
-	        
-	        <figure>
-	            <img src="link/third-screen.png" alt="Third work" title="Third work">
-	            <figcaption>Viro Media Players UI</figcaption>
-	        </figure>
-	        
-	        <figure>
-	            <img src="link/fourth-screen.png" alt="Fourth work" title="Fourth work">
-	            <figcaption>Blog / Magazine Flat UI Kit</figcaption>
-	        </figure>
-	        
+	   
+	    <div id="center-screen">
+            <div id="screenshots">
+                    <figure id="padding-screen">
+                        <img src="link/first-screen.png" alt="First work" title="First work">
+                        <figcaption>Isometric Perspective Mock-Up</figcaption>
+                    </figure>
+
+                    <figure id="padding-screen">
+                        <img src="link/second-screen.png" alt="Second work" title="Second work">
+                        <figcaption>Time Zone App UI</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="link/third-screen.png" alt="Third work" title="Third work">
+                        <figcaption>Viro Media Players UI</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="link/fourth-screen.png" alt="Fourth work" title="Fourth work">
+                        <figcaption>Blog / Magazine Flat UI Kit</figcaption>
+                    </figure>
+            </div>
+        </div>
+        
 	        <a href="#">Load more projects</a>
 	    
 	</div> <!-- End of the fifth container -->
@@ -190,48 +203,60 @@
 	<div id="block6"> <!-- sixth container -->
        
         <h2>WHAT POEPLE SAY ABOUT US</h2>
-        <p>Our clients love us!</p>
+		<div class="separator"></div>
+        <p class="description">Our clients love us!</p>
         
-        <div>
-            <div class="mini-pic"></div>
-            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
-            <h3>Chanel Iman</h3>
-            <h4>CEO of Pinterest</h4>
-        </div>
-	    
-	     <div>
-            <div class="mini-pic"></div>
-            <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
-            <h3>ADRIANA LIMA</h3>
-            <h4>Founder of Instagram</h4>
-        </div>
-        
-        <div>
-            <div class="mini-pic"></div>
-            <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
-            <h3>ANNE HATHAWAY</h3>
-            <h4>Lead Designer at Behance</h4>
-        </div>
-        
-        <div>
-            <div class="mini-pic"></div>
-            <p>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
-            <h3>EMMA STONE</h3>
-            <h4>Co-Founder of Shazam</h4>
+        <div id="testimonials">
+            <div>
+                <div class="mini-pic"></div>
+                    <div class="presentation">
+                        <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                        <h3>Chanel Iman</h3>
+                        <h4>CEO of Pinterest</h4>
+                    </div>
+            </div>
+
+             <div>
+                <div class="mini-pic"></div>
+                   <div class="presentation">
+                        <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                        <h3>ADRIANA LIMA</h3>
+                        <h4>Founder of Instagram</h4>
+                    </div>
+            </div>
+
+            <div>
+              <div class="mini-pic"></div>
+                   <div class="presentation">
+                        <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                        <h3>ANNE HATHAWAY</h3>
+                        <h4>Lead Designer at Behance</h4>
+                    </div>
+            </div>
+
+            <div>
+                <div class="mini-pic"></div>
+                    <div class="presentation">
+                        <p>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+                        <h3>EMMA STONE</h3>
+                        <h4>Co-Founder of Shazam</h4>
+                    </div>
+            </div>
         </div>
         
 	</div> <!-- End of the sixth container -->
 	
 	<div id="block7"> <!-- seventh container -->
         <h2>GET IN TOUCH</h2>
-	    <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+		<div class="separator"></div>
+	    <p class="description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
 	    
 	    <form action="action_page.php">
-	        <input type="text" name="name" value="Your Name">
-	        <input type="email" name="email" value="Your Email"><br>
-	        <textarea name="message" placeholder="Your Message"></textarea>
+	        <input type="text" name="name" placeholder="Your Name*" class="form-area">
+	        <input type="email" name="email" placeholder="Your Email" class="form-area"><br>
+	        <textarea name="message" placeholder="Your Message" ></textarea>
+	        <input type="submit" name="submit" value="Send message" id="submit-button">
 	    </form>
-	    <a href="#">Send message</a>
 	</div><!-- End of the seventh container -->
 	
 	<footer>
