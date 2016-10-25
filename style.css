@@ -11,12 +11,11 @@ h2 {
     font-weight: 700;
     font-size: 40px;
     color: white;
-    padding-bottom: 22px;
     letter-spacing: 0.1em;
 }
 
 .description {
-    padding-top: 25px; padding-bottom: 80px;
+    padding-top: ; padding-bottom: 80px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -30,6 +29,8 @@ h2 {
     background-color: black;
     opacity: 0.15;
     display: inline-block;
+    margin: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -469,8 +470,8 @@ h2 {
 
 #block7 input {
     width: 375px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 25px;
     margin-left: 15px;
     margin-right: 15px;
@@ -482,9 +483,6 @@ h2 {
     color: white;
 }
 
-.form-area {
-    
-}
 
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -501,11 +499,10 @@ h2 {
 }
 
 #block7 textarea {
-     width: 815px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 815px;
+    padding-top: 15px;
     padding-left: 25px;
+    padding-bottom: 110px;
     margin-top: 27px;
     background-color: #273a71;
     border: none;
@@ -520,21 +517,57 @@ h2 {
     background-repeat: no-repeat;
 }
 
- #submit-button {
+ #block7 button {
     margin-top: 60px;
-    padding-left: 80px;
+    padding: 30px 84px 24px 84px;
      text-transform: uppercase;
      font-size: 18px;
      letter-spacing: 0.02em;
      background-color: #30bae7;
-     
+     border: none;
+     border-radius: 3px;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 600;
+     letter-spacing: 0.02em;
+     font-size: 18px;
+     color: white;
+     border-bottom: 4px solid #299ec5;
 }
+
+#block7 button:hover {
+    border-bottom: 4px solid #30bae7;
+}
+
+
 /* Footer */
 
  footer {
         background: #344b8e; 
         width: 100%;
         height: 112px;
-        border-top: 1px white solid; 
+        /* border-top: 1px white solid; */
     }
+
+footer ul {
+    text-align: center;
+    display: inline-block;
+    margin-top: 48px;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 27px; margin-right: 28px; 
+}
+
+footer li a:hover{
+    color: #30bae7;
 }
