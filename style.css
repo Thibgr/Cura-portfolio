@@ -357,6 +357,7 @@ h2 {
 #screenshots  {
     margin: 0 auto;
     width: 1122px;
+    display: block;
 }
 
 #center-screen {
@@ -380,6 +381,10 @@ h2 {
 
 #block5 a:hover {
     border-bottom: 4px #17c2a4 solid ;
+}
+
+#center-screen {
+    display: block;
 }
 
 
@@ -538,6 +543,66 @@ h2 {
     border-bottom: 4px solid #30bae7;
 }
 
+form {
+    outline: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+/* RED STAR */
+
+input::-webkit-input-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
+input::-moz-placeholder {
+    color: #ff4444;
+}
+
+input::-moz-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
+input:-ms-input-placeholder {
+    color: #ff4444;
+}
+
+input:-ms-input-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
+
+
+
+textarea::-webkit-textarea-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
+textarea::-moz-placeholder {
+    color: #ff4444;
+}
+
+textarea::-moz-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
+textarea:-ms-textarea-placeholder {
+    color: #ff4444;
+}
+
+textarea:-ms-textarea-placeholder:after {
+    content: "*";
+    color: #ff4444;
+}
+
 
 /* Footer */
 
@@ -571,3 +636,4 @@ footer li a{
 footer li a:hover{
     color: #30bae7;
 }
+
